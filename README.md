@@ -54,7 +54,9 @@ The corresponding `CLIPSeg` model will be downloaded automatically from hub.
 The `CLIPSeg` model can generate image segmentations based on arbitrary `image` or `text` prompts. The `clipseg.ipynb` notebook demonstrates both use cases as shown below.
 
 ### Text Prompt
-
+<p align="center">
+<img src="https://github.com/kzchua1998/Zero-Shot-Segmentation-Tasks-using-Image-and-Text-Prompts/assets/64066100/a7126147-d5e1-4c01-8c2e-973e31a18eb5">
+</p>
 
 ### Image Prompt
 <p align="center">
