@@ -32,7 +32,7 @@ The CLIPSeg model was proposed in ["Image Segmentation Using Text and Image Prom
 The `clipseg.ipynb` notebook provides codes for using `CLIPSeg` pre-trained model. If you run locally, make sure to download the model from the link provided in the `Models` section below. 
 
 ## Models
-- `CIDAS/clipseg-rd16`: `CLIPSeg` with reduce dimension 16 ([link](https://huggingface.co/CIDAS/clipseg-rd16))
+- `CIDAS/clipseg-rd16`: `CLIPSeg` with reduce dimension 16 ([Download](https://huggingface.co/CIDAS/clipseg-rd16))
 - `CIDAS/clipseg-rd64`: `CLIPSeg` with reduce dimension 64 ([link](https://huggingface.co/CIDAS/clipseg-rd64))
-- `CIDAS/clipseg-rd64-refined`: `CLIPSeg` with reduce dimension 64, refined using a more complex convolution ([link](https://huggingface.co/CIDAS/clipseg-rd64-refined))
+- [`CIDAS/clipseg-rd64-refined`](https://huggingface.co/CIDAS/clipseg-rd64-refined): `CLIPSeg` with reduce dimension 64, refined with complex convolution ([`CIDAS/clipseg-rd64-refined`](https://huggingface.co/CIDAS/clipseg-rd64-refined))
 
