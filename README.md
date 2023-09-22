@@ -38,7 +38,16 @@ The `clipseg.ipynb` notebook provides codes for using `CLIPSeg` pre-trained mode
 
 To change model, simply modify the below cell in `clipseg.ipynb` as below
 ``` shell
-# Load model and its processor from the hub
+# CIDAS/clipseg-rd16
+processor = CLIPSegProcessor.from_pretrained(r"CIDAS/clipseg-rd16")
+model = CLIPSegForImageSegmentation.from_pretrained(r"CIDAS/clipseg-rd16")
+
+# CIDAS/clipseg-rd64
 processor = CLIPSegProcessor.from_pretrained(r"CIDAS/clipseg-rd64")
 model = CLIPSegForImageSegmentation.from_pretrained(r"CIDAS/clipseg-rd64")
+
+# CIDAS/clipseg-rd64-refined
+processor = CLIPSegProcessor.from_pretrained(r"CIDAS/clipseg-rd64-refined")
+model = CLIPSegForImageSegmentation.from_pretrained(r"CIDAS/clipseg-rd64-refined")
 ```
+The corresponding `CLIPSeg` model will be downloaded automaticay from hub.
