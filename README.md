@@ -9,7 +9,7 @@ This repository will experiment, compare and review transformer-based models in 
    pip install -q git+https://github.com/huggingface/transformers.git
    ```
   
-2. Install python requirements.
+2. Install python requirements (Python >= 3.8).
 
    ``` shell
    pip install -r requirements.txt
