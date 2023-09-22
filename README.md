@@ -3,16 +3,10 @@ This repository will experiment, compare and review transformer-based models in 
 
 # Quickstart
 
-1. Install `transformers` from source to for latest updates, alternatively
+1. Install `transformers` from source for latest updates.
 
    ``` shell
    pip install -q git+https://github.com/huggingface/transformers.git
-   ```
-   
-  alternatively,
-
-   ``` shell
-   pip install transformers
    ```
   
 2. Install python requirements.
