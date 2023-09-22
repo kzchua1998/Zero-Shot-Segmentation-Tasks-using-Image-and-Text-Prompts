@@ -22,11 +22,9 @@ The CLIPSeg model was proposed in ["Image Segmentation Using Text and Image Prom
 - adds a minimal decoder on top of a frozen `CLIP` model for zero and one-shot image segmentation
 - generate image segmentations based on arbitrary `image` or `text` prompts
 
-<br>
 <p align="center">
 <img src="https://github.com/kzchua1998/Zero-Shot-Segmentation-Tasks-using-Image-and-Text-Prompts/assets/64066100/24ec533e-c141-4421-b8af-d1d85cc54119" width="550" height="250">
 </p>
-</br>
 
 ## Quickstart
 The `clipseg.ipynb` notebook provides codes for using `CLIPSeg` pre-trained model. If you run locally, make sure to download the model from the link provided in the `Models` section below. 
@@ -50,4 +48,12 @@ model = CLIPSegForImageSegmentation.from_pretrained(r"CIDAS/clipseg-rd64")
 processor = CLIPSegProcessor.from_pretrained(r"CIDAS/clipseg-rd64-refined")
 model = CLIPSegForImageSegmentation.from_pretrained(r"CIDAS/clipseg-rd64-refined")
 ```
-The corresponding `CLIPSeg` model will be downloaded automaticay from hub.
+The corresponding `CLIPSeg` model will be downloaded automatically from hub.
+
+## Result Visualization
+The `CLIPSeg` model can generate image segmentations based on arbitrary `image` or `text` prompts. The `clipseg.ipynb` notebook demonstrates both use cases as shown below.
+
+#### Text Prompt
+
+
+#### Image Prompt
