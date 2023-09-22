@@ -34,5 +34,11 @@ The `clipseg.ipynb` notebook provides codes for using `CLIPSeg` pre-trained mode
 ## Models
 - `CIDAS/clipseg-rd16`: `CLIPSeg` with reduce dimension 16 ([Download](https://huggingface.co/CIDAS/clipseg-rd16))
 - `CIDAS/clipseg-rd64`: `CLIPSeg` with reduce dimension 64 ([Download](https://huggingface.co/CIDAS/clipseg-rd64))
-- `CIDAS/clipseg-rd64-refined`: `CLIPSeg` with reduce dimension 64, refined with complex convolution ([Download](https://huggingface.co/CIDAS/clipseg-rd64-refined))
+- `CIDAS/clipseg-rd64-refined`: `clipseg-rd64` refined with complex convolution ([Download](https://huggingface.co/CIDAS/clipseg-rd64-refined))
 
+To change model, simply modify the below cell in `clipseg.ipynb` as below
+``` shell
+# Load model and its processor from the hub
+processor = CLIPSegProcessor.from_pretrained(r"CIDAS/clipseg-rd64")
+model = CLIPSegForImageSegmentation.from_pretrained(r"CIDAS/clipseg-rd64")
+```
