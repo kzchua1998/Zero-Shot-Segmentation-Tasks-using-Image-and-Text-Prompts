@@ -1,5 +1,5 @@
 # Transformer-Based-Zero-Shot-Segmentation-Methods-using-Image-and-Text-Prompts
-This repository will experiment, compare and review transformer-based models in HuggingFace `transformers` for zero-shot segmentation tasks
+This repository will experiment, compare and review transformer-based models in HuggingFace `transformers` for zero-shot segmentation tasks. The repository will be updated from time to time to cover more `transformers` and their combinations revolving zero segmentation image segmentation tasks using text and image prompts.
 
 # Set-up Environment
 
